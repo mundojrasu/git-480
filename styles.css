@@ -1,5 +1,32 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body {
-    /*background-color: #1B1B1D;*/
-    /*background-color: darkgray;*/
+    background-color: #1B1B1D;
+    color: #ffffff;
+    padding: 40px;
 }
 
+section, aside, div {
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+/*Home Page Styles*/
+.home-sections {
+    display: flex;
+}
+
+.home-remodels {
+    flex: 1;
+}
+
+.home-additions {
+    flex: 1;
+}
