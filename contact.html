@@ -4,23 +4,77 @@
   <title>Desert Designs</title>
   <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
-<body>
-    <header>
-        <h1>Desert Designs</h1>
-        <h2>love where you live</h2>    
-        <nav class="navbar">
-            <h2>Main Navigation</h2>
-            <ul>
-                <li><a href="index.html">Services</a></li>
-                <li><a href="ourwork.html">Our Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+    <body>
+        <header>
+            <h1>Desert Designs</h1>
+            <h2>love where you live</h2>    
+            <nav class="navbar">
+                <h2>Main Navigation</h2>
+                <ul>
+                    <li><a href="index.html">Services</a></li>
+                    <li><a href="ourwork.html">Our Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
 
-            </ul>
-        </nav>
-    </header>
-    <footer>
-        <p>Desert Designs</p>
-        <small>Copyright © 2023 Desert Designs. All Rights Reserved.</small>
-    </footer>
-</body>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="contact-pic">
+                <img
+                    src="assets/avi-werde-unsplash.jpg"
+                    alt="Remodeled kitchen consisting of white cabinets, stainless steel appliances, darkwood flooring and white marble countertops"
+                    width="425"
+                    height="265" />    
+            </section>
+            <section class="contact-text">
+                <h2>Contact Us</h2>
+                <p>Are you ready to start that home renovation project?</p>
+                <p>Please let us know your vision by filling out the form below.</p>
+            </section>
+            <form action="" method="get" class="form">
+                <div class="form">
+                  <label for="fname">First Name: </label>
+                  <input type="text" name="fname" id="fname" required>
+                </div>
+                <div class="form">
+                    <label for="lname">Last Name: </label>
+                    <input type="text" name="lname" id="lname" required>
+                  </div>
+                <div class="form">
+                  <label for="email">Email: </label>
+                  <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form">
+                    <label for="phone">Phone: </label>
+                    <input type="tel" name="phone" id="phone" required>
+                  </div>
+                <div class="form">
+                  <input type="submit" value="Submit">
+                </div>
+                <div class="form">
+                    <label for="service">What services are you interested in? </label>
+                    <input type="text" name="service" id="service" required>
+                  </div>
+                <div class="form">
+                    <label for="date">What services are you interested in? </label>
+                    <input type="date" id="start" name="trip-start" value=""
+                           min="2023-01-01" max="">
+                </div>
+                <div class="form">
+                    <label for="budget">Estimated Project Budget </label>
+                    <input type="text" name="budget" id="budget" required>
+                  </div>
+                <div class="form">
+                    <label for="more">Please tell us more about your project </label>
+                    <input type="text" name="more" id="more" required>
+                </div>
+
+              </form>
+        </main>
+        <footer>
+            <p>Desert Designs</p>
+            <small>Copyright © 2023 Desert Designs. All Rights Reserved.</small>
+        </footer>
+    </body>
+</html>
