@@ -20,6 +20,14 @@ body {
     cursor: pointer;
 }
 
+.logo a{
+    text-decoration: none;
+}
+
+.logo a:visited {
+    color: #ffffff;
+}
+
 .tagline {
     font-family: azo-sans-web, sans-serif;
     font-weight: 400;
