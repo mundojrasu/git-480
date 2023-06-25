@@ -123,6 +123,8 @@ p, small, li{
 /*Home Page Styles*/
 .home-sections {
     display: flex;
+    margin-inline: 0% 5%;
+    writing-mode: horizontal-tb;
 }
 
 .design-p {
@@ -141,3 +143,32 @@ p, small, li{
     text-align: center;
     padding: 15px;
 }
+
+.home-sections h3 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.learn-more-btn {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Additions Page Styles*/
+.additions-section {
+    display: flex;
+    margin-inline: 0% 5%;
+    writing-mode: horizontal-tb;
+}
+
+.additions-pic {
+    flex: 1;
+}
+
+.additions-text {
+    flex: 1;
+}
+
+
