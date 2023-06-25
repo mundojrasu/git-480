@@ -186,11 +186,49 @@ p, small, li{
 .additions-text {
     flex: 1;
     padding-left: 75px;
+    padding-bottom: 75px;
 }
 
 .book-now-btn {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 15px;
 }
 
+.additions-list-section {
+    padding: 20px;
+}
+
+.addtions-h3 {
+    padding-top: 25px;
+}
+
+/*Remodels Page Styles*/
+.remodels-section {
+    display: flex;
+    text-align: center;
+}
+
+.remodels-pic {
+    flex: 1;
+}
+
+.remodels-text {
+    flex: 1;
+    padding-left: 75px;
+    padding-bottom: 75px;
+}
+
+.book-now-btn {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.remodels-list-section {
+    padding: 20px;
+}
+
+.remodels-h3 {
+    padding-top: 25px;
+}
