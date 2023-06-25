@@ -123,8 +123,9 @@ p, small, li{
 /*Home Page Styles*/
 .home-sections {
     display: flex;
-    margin-inline: 0% 5%;
-    writing-mode: horizontal-tb;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .design-p {
@@ -153,7 +154,6 @@ p, small, li{
 .learn-more-btn {
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 /*Additions Page Styles*/
@@ -169,6 +169,11 @@ p, small, li{
 
 .additions-text {
     flex: 1;
+    padding-left: 75px;
 }
 
-
+.book-now-btn {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
