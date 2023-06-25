@@ -89,7 +89,7 @@ hr {
     height: 50px;
 }
 
-p, small, li{
+p, small, li, label, input{
     font-family: azo-sans-web, sans-serif;
     font-weight: 300;
     font-size: 1em;
@@ -247,4 +247,71 @@ p, small, li{
 
 .remodels-h3 {
     padding-top: 25px;
+}
+
+/*About Us Styles*/
+
+.about-us-section {
+    display: flex;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.about-us-pic {
+    flex: 1;
+}
+
+.about-us-text {
+    flex: 1;
+    padding-left: 75px;
+}
+
+.about-us-text h2 {
+    padding-bottom: 25px;
+}
+
+.about-us-text .book-now-btn {
+    padding-top: 50px;
+}
+
+/*Contact Us Styles*/
+.contact-section {
+    display: flex;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.contact-pic {
+    flex: 1;
+    padding-top: 5%;
+}
+
+.contact-text-form {
+    flex: 1;
+}
+
+.contact-text {
+    padding-bottom: 50px;
+}
+
+.contact-text h2 {
+    padding-bottom: 25px;
+}
+
+.form-section {
+    text-align:right;
+    padding-right: 125px;
+}
+
+.form-section .form {
+    padding-bottom: 20px;
+}
+
+.form-section input {
+    height: 25px;
+    width: 50%;
+    background-color: #1B1B1D;
+    border-color: #ffffff;
+    border-width: 3px;
+    color: #ffffff;
 }
