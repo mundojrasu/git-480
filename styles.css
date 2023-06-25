@@ -54,6 +54,16 @@ header {
 .nav-links li {
     display: inline-block;
     padding: 0px 20px;
+    color: #ffffff;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.nav-links a:visited{
+    color: #ffffff;
+
 }
 
 /*Footer Styles*/
@@ -314,4 +324,16 @@ p, small, li, label, input{
     border-color: #ffffff;
     border-width: 3px;
     color: #ffffff;
+}
+
+#submit-btn a:visited {
+    color: #ffffff;
+}
+
+#submit-btn input:hover {
+    background-color: #fff;
+}
+
+#submit-btn :hover{
+    color: #1B1B1D;
 }
