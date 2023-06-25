@@ -156,11 +156,27 @@ p, small, li{
     padding-top: 50px;
 }
 
+.learn-more-btn a {
+    text-decoration: none;
+}
+
+.learn-more-btn a:visited {
+    color: #ffffff;
+}
+
+.learn-more-btn button:hover {
+    background-color: #fff;
+}
+
+.learn-more-btn p:hover{
+    color: #1B1B1D;
+}
+
+
 /*Additions Page Styles*/
 .additions-section {
     display: flex;
-    margin-inline: 0% 5%;
-    writing-mode: horizontal-tb;
+    text-align: center;
 }
 
 .additions-pic {
@@ -177,3 +193,4 @@ p, small, li{
     padding-top: 50px;
     padding-bottom: 15px;
 }
+
