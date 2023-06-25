@@ -79,6 +79,7 @@ footer a:visited {
 }
 
 
+/*Main Styles*/
 hr {
     border: none;
     border-top: 3px solid #fff;
@@ -87,9 +88,6 @@ hr {
     text-align: center;
     height: 50px;
 }
-
-
-
 
 p, small, li{
     font-family: azo-sans-web, sans-serif;
@@ -109,10 +107,28 @@ p, small, li{
     cursor: pointer;
  }
 
+ h2 {
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+ }
+
+ h3 {
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+ }
+
 
 /*Home Page Styles*/
 .home-sections {
     display: flex;
+}
+
+.design-p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
 }
 
 .home-remodels {
@@ -121,4 +137,11 @@ p, small, li{
 
 .home-additions {
     flex: 1;
+}
+
+.design-h2 {
+    text-align: center;
+    padding: 15px;
+    font-size: 3rem;
+    font-weight: 500;
 }
